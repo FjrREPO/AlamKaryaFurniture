@@ -2,7 +2,6 @@ import {
     IoLogoFacebook,
     IoLogoWhatsapp,
     IoLogoInstagram,
-    IoMdAddCircle,
     IoIosArrowRoundForward,
 } from 'react-icons/io';
 
@@ -10,12 +9,6 @@ import Kursi from './assets/img/kursi.jpg';
 import Meja from './assets/img/products/meja.jpg';
 import Meja2 from './assets/img/products/mejakecil.jpg';
 import AlatMasak from './assets/img/products/alatmasak.jpg';
-import Product1Img from './assets/img/products/meja.jpg';
-import Product2Img from './assets/img/products/kursi.jpg';
-import Product3Img from './assets/img/products/alatmasak.jpg';
-import Product4Img from './assets/img/products/cermin.jpg';
-import Product5Img from './assets/img/products/lantai.jpg';
-import Product6Img from './assets/img/products/mejakecil.jpg';
 import TestimonialImg from './assets/img/testibg.jpg';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
@@ -25,19 +18,7 @@ export const navigation = [
 {
     name: 'home',
     href: 'home',
-},
-{
-    name: 'about',
-    href: 'about',
-},
-{
-    name: 'products',
-    href: 'products',
-},
-{
-    name: 'contact',
-    href: 'contact',
-},
+}
 ];
 
 export const hero = {
@@ -107,50 +88,6 @@ export const products = {
     subtitle:
         'Produk yang kami buat berasal dari bahan yang berkualitas, anda dapat memesan produk custom sesuai keinginan anda',
     pages: [
-        {
-        productList: [
-            {
-            image: <Product1Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Meja',
-            desc: 'Deskripsi',
-            },
-            {
-            image: <Product2Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Kursi',
-            desc: 'Deskripsi',
-            },
-            {
-            image: <Product3Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Alat Masak',
-            desc: 'Deskripsi',
-            },
-            {
-            image: <Product4Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Cermin',
-            desc: 'Deskripsi',
-            },
-        ],
-        },
-        {
-        productList: [
-            {
-            image: <Product5Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Lantai',
-            desc: 'Deskripsi',
-            },
-            {
-            image: <Product6Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Meja Kecil',
-            desc: 'Deskripsi',
-            },
-        ],
-        },
     ],
 };
 
@@ -201,7 +138,7 @@ social: [
     },
     {
     icon: <IoLogoFacebook />,
-    link : 'https://www.facebook.com/photo.php?fbid=105826375843674&set=a.105826392510339&type=3&mibextid=qC1gEa',
+    link : 'https://www.facebook.com/profile.php?id=100092489348318&mibextid=LQQJ4d',
     },
 ]
 };

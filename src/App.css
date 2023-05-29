@@ -241,3 +241,236 @@ img.about__img {
     width: 25px;
     padding-right: 5px;
 }
+
+
+
+
+
+.admin__back {
+    background: transparent;
+    position: relative;
+    display: flex;
+    height: 80px;
+}
+
+.admin__backadmin {
+    background: transparent;
+    position: relative;
+    display: flex;
+}
+
+.admin__add {
+    background: transparent;
+    position: relative;
+    display: flex;
+}
+
+.admin__backbutton {
+    background: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.admin__addbutton {
+    background: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.admin__backname {
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.admin__backname {
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.admin__buttonsave {
+    background: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.admin__buttonsave:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.admin__mainform {
+    min-height: 89vh;
+}
+
+.admin__mainformedit {
+    background: #ffffff;
+    height: auto;
+}
+
+.admin__childform {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: -50px;
+    height: 450px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.admin__head {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.admin__inputimage {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 16em;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    margin-left: 50px;
+    color: #000000;
+}
+
+.admin__mainpreview {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.admin__inputlink {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px;
+    padding-left: 10px;
+    background: #fff;
+    color: #000000;
+    border: 2px solid #5d00ff;
+}
+
+.admin__deskripsi {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    padding: 5px;
+    padding-left: 10px;
+    background: #fff;
+    color: #000000;
+    border: 2px solid #5d00ff;
+}
+
+
+
+
+.products__search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #4f4f4f;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #737373;
+}
+
+.searchTerm:focus {
+    color: #000000;
+}
+
+.searchButton {
+    padding-left: 7px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4f4f4f;
+    background: #4f4f4f;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.products__wrap {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.admin__button {
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .products__wrap {
+        width: 80%;
+    }
+
+    .admin__button {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
+}
+
+
+
+.pagination a {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.pagination a:hover {
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: #000;
+    transition: 0.25s;
+}
+
+.pagination-link {
+    font-weight: bold;
+}
+
+.pagination-link-active {
+    color: #fff !important;
+    background: #000000;
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+.pagination-link-disabled {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
